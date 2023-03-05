@@ -66,7 +66,7 @@ class AnalogClock(context: Context, attrs: AttributeSet) : FrameLayout(context, 
 
         if (minute == 360){
 
-            binding.imageViewMin.animate().rotationBy(30f)
+            binding.imageViewHour.animate().rotationBy(30f)
             minute = 0
 
         }
